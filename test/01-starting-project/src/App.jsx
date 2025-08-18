@@ -25,7 +25,7 @@ function Header() {
 }
 //=======
 import { CORE_CONCEPTS } from './data.js';
-import Header from './components/Header/Header.jsx';
+import Header from './components/header/Header.jsx';
 import CoreConcept from './components/coreconcepts/CoreConcepts.jsx';
 import TabButton from './components/tabbutton.jsx';
 
