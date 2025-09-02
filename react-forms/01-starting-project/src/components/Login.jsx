@@ -5,7 +5,7 @@ export default function Login() {
 
 
   const [enteredEmail, setEnteredEmail] = useState('');
- const [enteredPassword, setEnteredPassword] = useState('');
+  const [enteredPassword, setEnteredPassword] = useState('');
 
 
 // const [ enteredValues, setEnteredValues]= useState(
