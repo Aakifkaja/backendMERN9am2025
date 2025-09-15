@@ -8,9 +8,30 @@ export default function Login() {
 
   const [submittedData, setSubmittedData] = useState(null);
 
+<<<<<<< HEAD
   function handleSubmit(event) {
     event.preventDefault();
     setSubmittedData(enteredValues); // store submitted values in state
+=======
+
+  const [enteredEmail, setEnteredEmail] = useState('');
+  const [enteredPassword, setEnteredPassword] = useState('');
+
+
+// const [ enteredValues, setEnteredValues]= useState(
+//   {
+//   email:'',
+//   password:'',
+// })
+
+
+
+
+  function handleSubmit(event){
+    // event.preventDefault()
+    console.log({email:enteredEmail, password:enteredPassword});
+    
+>>>>>>> 6903f5db237d3dfbac7bf75a30736953eb009ef1
   }
 
   function handleInputChange(identifier, value) {
